@@ -1,0 +1,42 @@
+.content-header {
+  width: 100%;
+  height: 85px;
+  border: 1px solid gray;
+  line-height: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content-header .sub-window-action {
+  width: 80px;
+  font-size: 30px;
+  border: 1px solid gray;
+}
+
+.main-content {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./background.png");
+  background-size: cover;
+}
+
+.main-content .main-content-top {
+  font-size: 2.5rem;
+  color: white;
+  padding: 40px;
+}
+
+.main-content .main-content-top #today-date {
+  font-size: 2rem;
+}
+
+.main-content .sub-content {
+  width: 0%;
+  height: 100vh;
+  border: 1px solid gray;
+  background: black;
+  opacity: 0.7;
+  position: absolute;
+}
+/*# sourceMappingURL=style.css.map */
