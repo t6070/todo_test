@@ -22,8 +22,3 @@ openSubWindowBtn.onclick = () => {
   //開閉フラグを変更
   openFlg = !openFlg;
 };
-
-// スクロールを無効にする
-$(window).on("touchmove.noScroll", function (e) {
-  e.preventDefault();
-});
