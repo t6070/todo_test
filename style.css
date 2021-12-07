@@ -6,6 +6,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background: white;
+  position: absolute;
 }
 
 .content-header .sub-window-action {
@@ -24,7 +26,7 @@
 .main-content .main-content-top {
   font-size: 2.5rem;
   color: white;
-  padding: 40px;
+  padding: 100px 40px 40px 40px;
 }
 
 .main-content .main-content-top #today-date {
@@ -38,5 +40,6 @@
   background: black;
   opacity: 0.7;
   position: absolute;
+  margin-top: 85px;
 }
 /*# sourceMappingURL=style.css.map */
