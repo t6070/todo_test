@@ -1,3 +1,7 @@
+body {
+  font-family: "sans-seif";
+}
+
 body:before {
   content: "";
   display: block;
@@ -28,7 +32,7 @@ body:before {
 
 .main-content {
   width: 100%;
-  //   height: 100vh;
+  height: 100vh;
   .main-content-top {
     font-size: 2.5rem;
     color: white;
